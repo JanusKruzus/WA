@@ -1,0 +1,102 @@
+
+body{
+    background-color: #ffffff;
+    color: #ffaa00c9;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 60vh;
+}
+.right_sec{
+
+    margin-left: 150px;
+}
+.left_sec{
+
+    margin-right: 150px;
+}
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+#foto{
+
+    background-image: url("images\\nav_hory_3.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+
+
+
+
+}
+nav ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #000000c9;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ffaa00c9;
+    transition: 0.3s;
+}
+h1{
+    color: #000000;
+    font-size: 50px;
+
+
+}
+p{
+    color: #000000;
+    font-size: 35px;
+}
+.main_logo{
+    color: #ffaa00c9;
+    font-size: 35px;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(0);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.logo:nth-child(2) {
+    transition-delay: 200ms;
+}
+.logo:nth-child(3) {
+    transition-delay: 400ms;
+}
+.logo:nth-child(4) {
+    transition-delay: 600ms;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+
+}
+#odhlaseni{
+
+
+font-weight: bold;
+font-size: 20px;
+
+
+}

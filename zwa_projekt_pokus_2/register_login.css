@@ -1,0 +1,51 @@
+body{
+    padding:50px;
+}
+
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*
+.container{
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+*/
+.form-group{
+    margin-bottom:30px;
+}
+input[type=submit]{
+    background-color: #ffaa00c9;
+    border: none;
+    color: rgb(0, 0, 0);
+    
+    padding: 10px 10px;
+
+    text-decoration: none;
+    margin: 0px 2px;
+    cursor: pointer;
+  }
+  input:hover[type=submit]{
+    background-color: #ffaa00c9;
+  }
+
+  #nadpis{padding-bottom: 10px;}
+
+  #odkaz{ padding-top: 10px;}
+
+  #link{    color: #ffaa00c9; }
+
+  #link:link { text-decoration: none; }
+
+  #link:visited { text-decoration: none; }
+
+  #link:active { text-decoration: none; }
+
